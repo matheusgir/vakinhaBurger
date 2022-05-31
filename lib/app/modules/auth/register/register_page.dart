@@ -34,6 +34,9 @@ class _RegisterPageState extends State<RegisterPage> {
                     color: context.theme.primaryColorDark,
                   ),
                 ),
+                const SizedBox(
+                  height: 10,
+                ),
                 Text(
                   'Preencha os campos abaixo para criar o seu cadastro.',
                   style: context.textTheme.bodyText1!.copyWith(
